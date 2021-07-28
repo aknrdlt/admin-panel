@@ -15,12 +15,12 @@ class MainController extends Controller
         public function index(){
             $banners = Banner::all();
             $restaurants = Restaurant::all();
-            Data::create([
-                "coworkers" => 1,
-                "users" => 1,
-                "staff" => 1
-            ]);
-            // $data = Data::find(1);
+            // Data::create([
+            //     "coworkers" => 1,
+            //     "users" => 1,
+            //     "staff" => 1
+            // ]);
+            $data = Data::find(1);
             $news = News::all();
             $abouts = About::all();
             return view('index',compact('banners','restaurants', 'data', 'news', 'abouts'));
