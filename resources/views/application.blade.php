@@ -1,6 +1,6 @@
 <img src="/static/images/form-image.png" alt="" class="form-image" />
       <div class="form">
-        <form  method="POST" action="/" enctype="multipart/form-data">
+        <form  method="POST" action="/" enctype="multipart/form-data" onsubmit="return false;">
         <h1 class="title">Оставьте заявку и мы обязательно свяжемся с вами!</h1>
         <input
           type="text"
@@ -39,7 +39,7 @@
         </div>
         <div class="btn-container">
           @csrf
-          <input type="submit" class="btn-send" value="Отправить"></input>
+          <input  type="submit" class="btn-send" value="Отправить"></input>
         </div>
         </form>
       </div>
