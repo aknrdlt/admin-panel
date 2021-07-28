@@ -131,7 +131,7 @@
     <section class="statistics" data-aos="fade-up">
       <div class="container">
         <h1 class="title">Nunc sed blandit libero volutpat</h1>
-        <div class="inner-blocks" id="counter">
+        <!-- <div class="inner-blocks" id="counter">
           <div class="statistics-block">
             <img src="/static/icons/cafe.svg" alt="" class="statistics-icon" />
             <div class="statistics-data">
@@ -157,7 +157,7 @@
               <span>Официантов пользуются Order Eat</span>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
     </section>
     <section class="news" data-aos="fade-right">
