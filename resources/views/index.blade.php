@@ -59,7 +59,7 @@
         </a>
         <nav class="menu">
           <ol>
-            <li><a href="#about">О нас</a></li>
+            <li><a href="#about">О нас.</a></li>
             <li><a href="#">Акции</a></li>
             <li><a href="#">Контакты</a></li>
           </ol>
