@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
-    <link rel="stylesheet" type="text/css" href="{{ asset('css/style.css') }}" >
-    <link rel="stylesheet" type="text/css" href="{{ asset('css/swiper.min.css') }}" >
+    <link rel="stylesheet" type="text/css" href="{{ secure_asset('css/style.css') }}" >
+    <link rel="stylesheet" type="text/css" href="{{ secure_asset('css/swiper.min.css') }}" >
 
-    <script type="text/javascript" src="{{ asset('js/lottie.js') }}"></script>
-    <script type="text/javascript" src="{{ asset('js/aos.css') }}"></script>
+    <script type="text/javascript" src="{{ secure_asset('js/lottie.js') }}"></script>
+    <script type="text/javascript" src="{{ secure_asset('js/aos.css') }}"></script>
     <title>Order Eat</title>
   </head>
   <body>
@@ -131,7 +131,7 @@
     <section class="statistics" data-aos="fade-up">
       <div class="container">
         <h1 class="title">Nunc sed blandit libero volutpat</h1>
-     
+
       </div>
     </section>
     <section class="news" data-aos="fade-right">
