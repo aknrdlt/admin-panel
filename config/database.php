@@ -8,7 +8,6 @@ $host = $url["host"];
 $username = $url["user"];
 $password = $url["pass"];
 $database = substr($url["path"], 1);
-
 return [
 
     /*
@@ -50,33 +49,36 @@ return [
             'foreign_key_constraints' => env('DB_FOREIGN_KEYS', true),
         ],
 
-        'mysql' => [
+        // 'mysql' => [
+        //     'driver' => 'mysql',
+        //     'url' => env('DATABASE_URL'),
+        //     'host' => env('DB_HOST', '127.0.0.1'),
+        //     'port' => env('DB_PORT', '3306'),
+        //     'database' => env('DB_DATABASE', 'forge'),
+        //     'username' => env('DB_USERNAME', 'bbf2ec2dd6c4e9'),
+        //     'password' => env('DB_PASSWORD', '8c96ea70'),
+        //     'unix_socket' => env('DB_SOCKET', ''),
+        //     'charset' => 'utf8mb4',
+        //     'collation' => 'utf8mb4_unicode_ci',
+        //     'prefix' => '',
+        //     'prefix_indexes' => true,
+        //     'strict' => true,
+        //     'engine' => null,
+        //     'options' => extension_loaded('pdo_mysql') ? array_filter([
+        //         PDO::MYSQL_ATTR_SSL_CA => env('MYSQL_ATTR_SSL_CA'),
+        //     ]) : [],
+        // ],
+
+        'mysql' => array(
             'driver'    => 'mysql',
-        'host'      => $host,
-        'database'  => $database,
-        'username'  => $username,
-        'password'  => $password,
-        'charset'   => 'utf8',
-        'collation' => 'utf8_unicode_ci',
-        'prefix'    => '',
-            // 'driver' => 'mysql',
-            // 'url' => env('DATABASE_URL'),
-            // 'host' => env('DB_HOST', '127.0.0.1'),
-            // 'port' => env('DB_PORT', '3306'),
-            // 'database' => env('DB_DATABASE', 'forge'),
-            // 'username' => env('DB_USERNAME', 'bbf2ec2dd6c4e9'),
-            // 'password' => env('DB_PASSWORD', '8c96ea70'),
-            // 'unix_socket' => env('DB_SOCKET', ''),
-            // 'charset' => 'utf8mb4',
-            // 'collation' => 'utf8mb4_unicode_ci',
-            // 'prefix' => '',
-            // 'prefix_indexes' => true,
-            // 'strict' => true,
-            // 'engine' => null,
-            // 'options' => extension_loaded('pdo_mysql') ? array_filter([
-            //     PDO::MYSQL_ATTR_SSL_CA => env('MYSQL_ATTR_SSL_CA'),
-            // ]) : [],
-        ],
+            'host'      => $host,
+            'database'  => $database,
+            'username'  => $username,
+            'password'  => $password,
+            'charset'   => 'utf8',
+            'collation' => 'utf8_unicode_ci',
+            'prefix'    => '',
+        ),
 
         'pgsql' => [
             'driver' => 'pgsql',
