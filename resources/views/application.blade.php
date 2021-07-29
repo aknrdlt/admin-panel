@@ -1,6 +1,6 @@
 <img src="/static/images/form-image.png" alt="" class="form-image" />
       <div class="form">
-        <form>
+        <form method="POST" action="">
         <h1 class="title">Оставьте заявку и мы обязательно свяжемся с вами!</h1>
         <input
           type="text"
@@ -38,8 +38,20 @@
           />
         </div>
         <div class="btn-container">
-          <input  type="submit" onclick="showMessage()" class="btn-send" value="Отправить"></input>
+          <input  type="submit" class="btn-send" value="Отправить"></input>
         </div>
         <p> Message is: <span id = "display_message"></span> </p>
         </form>
       </div>
+
+      <?php
+        if(isset($_POST["restaurant_name"]) && isset($_POST["role"]) && isset($_POST["goal"]) && isset($_POST["username"]) && isset($_POST["phone"])){
+          $restaurant_name = $_POST["restaurant_name"];
+          $role = $_POST["role"];
+          $goal = $_POST["goal"];
+          $username = $_POST["username"];
+          $phone = $_POST["phone"];
+
+         echo $restaurant_name . "</br>";
+        }
+      ?>
