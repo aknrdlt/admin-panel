@@ -45,10 +45,3 @@ Route::group(['prefix' => 'admin'], function () {
 Route::get('info', function () {
     phpinfo();
 });
-
-Route::get("/storage-link", function () {
-    $targetFolder = storage_path("app/public");
-    $linkFolder = $_SERVER['DOCUMENT_ROOT'] . '/storage';
-    echo $linkFolder;
-    symlink($targetFolder, $linkFolder);
-});
