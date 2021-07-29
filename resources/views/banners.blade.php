@@ -18,7 +18,11 @@
                   </a>
                 </div>
               </div>
-              <img class="banner-photo" src="{{Voyager::image($value -> image)}}"  alt="" />
+              @if(isset($value -> image))
+                <img class="banner-photo" src="{{Voyager::image($value -> image)}}"  alt="" />
+              @else
+                <img class="banner-photo" src="{{$value -> image_link}}"  alt="" />
+              @endif
       </div>
       </div>
 
