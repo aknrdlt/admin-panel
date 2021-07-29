@@ -285,6 +285,10 @@
       <a href="#form" class="become-partner-burger">Стать партнером</a>
     </div>
   </body>
+  <script type="text/javascript" src="{{ secure_asset('js/lottie.js') }}"></script>
+  <script type="text/javascript" src="{{ secure_asset('js/aos.css') }}"></script>
+  <script src="{{ secure_asset('js/swiper.min.js') }}"></script>
+  <script src="{{ secure_asset('js/aos.js') }}"></script>
   <script>
     var animData = {
       wrapper: document.getElementById("bodymovin"),
@@ -296,10 +300,6 @@
     };
     var anim = bodymovin.loadAnimation(animData);
   </script>
-  <script type="text/javascript" src="{{ asset('js/lottie.js') }}"></script>
-  <script type="text/javascript" src="{{ secure_asset('js/aos.css') }}"></script>
-  <script src="{{ asset('js/swiper.min.js') }}"></script>
-  <script src="{{ asset('js/aos.js') }}"></script>
   <script
     src="https://code.jquery.com/jquery-3.6.0.min.js"
     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
