@@ -21,7 +21,7 @@
               @php 
                 echo $value->image;
               @endphp
-              <img class="banner-photo" src="{{asset($value->image)}}"  alt="" />
+              <img class="banner-photo" src="{{asset('storage/'.$value->image)}}"  alt="" />
       </div>
       </div>
 
