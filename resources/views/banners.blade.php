@@ -18,7 +18,10 @@
                   </a>
                 </div>
               </div>
-              <img class="banner-photo" src="{{Voyager::image($value->image)}}"  alt="" />
+              @php 
+                echo $value->image;
+              @endphp
+              <img class="banner-photo" src="{{asset($value->image)}}"  alt="" />
       </div>
       </div>
 
