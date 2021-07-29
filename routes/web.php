@@ -34,8 +34,6 @@ Route::post('/', function(){
           'username' => $username,
           'phone' => $phone
         ]);
-
-       echo "Спасибо, Ваша заявка принята" . "</br>";
       }
 });
 
