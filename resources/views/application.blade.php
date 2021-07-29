@@ -51,6 +51,6 @@
           $username = $_POST["username"];
           $phone = $_POST["phone"];
 
-          echo $restaurant_name
+          echo $restaurant_name;
         }
       ?>
