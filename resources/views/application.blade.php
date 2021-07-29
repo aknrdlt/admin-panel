@@ -1,6 +1,6 @@
 <img src="/static/images/form-image.png" alt="" class="form-image" />
       <div class="form">
-        <form  method="POST" action="">
+        <form>
         <h1 class="title">Оставьте заявку и мы обязательно свяжемся с вами!</h1>
         <input
           type="text"
@@ -38,8 +38,9 @@
           />
         </div>
         <div class="btn-container">
-          <input  type="submit" class="btn-send" value="Отправить"></input>
+          <input  type="submit" onclick="showMessage()" class="btn-send" value="Отправить"></input>
         </div>
+        <p> Message is: <span id = "display_message"></span> </p>
         </form>
       </div>
 

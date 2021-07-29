@@ -436,6 +436,12 @@
       })
     );
   </script>
+  <script type="text/JavaScript">
+        function showMessage(){
+            var message = document.getElementByClassName("message").value;
+            display_message.innerHTML= message;
+        }
+    </script>
   <script>
     window.onload = () => {
       setTimeout(() => {
