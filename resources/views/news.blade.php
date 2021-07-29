@@ -1,9 +1,6 @@
 @foreach($news as $key => $value)
     <div class="swiper-slide">
             <div class="news-card">
-              @php
-                echo Voyager::image($value->image)
-              @endphp
               <img src="{{asset($value->image)}}" alt="" />
               <div class="news-data">
                 <h2 class="news-title">
