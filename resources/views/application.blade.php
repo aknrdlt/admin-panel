@@ -50,7 +50,5 @@
           $goal = $_POST["goal"];
           $username = $_POST["username"];
           $phone = $_POST["phone"];
-
-          echo $restaurant_name;
         }
       ?>
