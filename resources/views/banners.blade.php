@@ -18,7 +18,7 @@
                   </a>
                 </div>
               </div>
-              <img class="banner-photo" src="{{asset('storage/'.$value->image)}}"  alt="" />
+              <img class="banner-photo" src="{{asset($value->image)}}"  alt="" />
       </div>
       </div>
 
