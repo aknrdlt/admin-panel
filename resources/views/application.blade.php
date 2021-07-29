@@ -44,7 +44,7 @@
       </div>
 
       <?php
-        if(isset($_POST["restaurant_name"]) && isset($_POST["role"]) && isset($_POST["goal"]) && isset($_POST["username"]) && isset($_POST["username"])){
+        if(isset($_POST["restaurant_name"]) && isset($_POST["role"]) && isset($_POST["goal"]) && isset($_POST["username"]) && isset($_POST["phone"])){
           $restaurant_name = $_POST["restaurant_name"];
           $role = $_POST["role"];
           $goal = $_POST["goal"];
