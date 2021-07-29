@@ -35,6 +35,7 @@ Route::post('/', function(){
           'phone' => $phone
         ]);
       }
+      return view('index');
 });
 
 Route::group(['prefix' => 'admin'], function () {
