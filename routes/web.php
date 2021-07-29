@@ -27,3 +27,6 @@ Route::group(['prefix' => 'admin'], function () {
 Route::get('info', function () {
     phpinfo();
 });
+Route::get('/linkstorage', function () {
+    Artisan::call('storage:link');
+});
