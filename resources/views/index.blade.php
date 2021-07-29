@@ -8,8 +8,8 @@
     <link rel="stylesheet" type="text/css" href="{{ secure_asset('css/style.css') }}" >
     <link rel="stylesheet" type="text/css" href="{{ secure_asset('css/swiper.min.css') }}" >
 
-    <script type="text/javascript" src="{{ secure_asset('js/lottie.js') }}"></script>
-    <script type="text/javascript" src="{{ secure_asset('js/aos.css') }}"></script>
+    <script type="text/javascript" src="{{ asset('js/lottie.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('js/aos.css') }}"></script>
     <title>Order Eat</title>
   </head>
   <body>
