@@ -18,8 +18,6 @@ use App\Http\Controllers\MainController;
 
 Route::get('/', [MainController::class, 'index']);
 
-Route::post('/', [MainController::class, 'application']);
-
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
 });
@@ -27,6 +25,7 @@ Route::group(['prefix' => 'admin'], function () {
 Route::get('info', function () {
     phpinfo();
 });
+    
 Route::get("/storage-link", function () {
     $targetFolder = storage_path("app/public");
     $linkFolder = $_SERVER['DOCUMENT_ROOT'] . '/storage';
