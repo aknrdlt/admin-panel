@@ -306,17 +306,16 @@
     crossorigin="anonymous"
   ></script>
   <script>
-    console.log($(".banner-swiper"))
-    const bannerSwiper = new Swiper(".banner-swiper", {
-      direction: "horizontal",
-      slidesPerView: "auto",
-      loop: "true",
-      autoplay: true,
-      pagination: {
-        el: ".swiper-pagination",
-        type: "bullets",
-      },
-    });
+    // const bannerSwiper = new Swiper(".banner-swiper", {
+    //   direction: "horizontal",
+    //   slidesPerView: "auto",
+    //   loop: "true",
+    //   autoplay: true,
+    //   pagination: {
+    //     el: ".swiper-pagination",
+    //     type: "bullets",
+    //   },
+    // });
     const restaurantSwiper = new Swiper(".restaurant-swiper", {
       direction: "horizontal",
       loop: "true",
