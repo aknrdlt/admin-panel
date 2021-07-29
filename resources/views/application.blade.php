@@ -1,6 +1,7 @@
 <img src="/static/images/form-image.png" alt="" class="form-image" />
       <div class="form">
         <form  method="POST" action="">
+        <?php echo $restaurant_name?>
         <h1 class="title">Оставьте заявку и мы обязательно свяжемся с вами!</h1>
         <input
           type="text"
@@ -51,6 +52,6 @@
           $username = $_POST["username"];
           $phone = $_POST["phone"];
 
-          echo $restaurant_name;
+          
         }
       ?>
