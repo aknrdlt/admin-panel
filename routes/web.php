@@ -18,8 +18,6 @@ use App\Http\Controllers\MainController;
 
 Route::get('/', [MainController::class, 'index']);
 
-Route::post('/', [MainController::class, 'application']);
-
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
 });
