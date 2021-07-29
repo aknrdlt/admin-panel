@@ -305,17 +305,17 @@
     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
     crossorigin="anonymous"
   ></script>
-  <script>
-    // const bannerSwiper = new Swiper(".banner-swiper", {
-    //   direction: "horizontal",
-    //   slidesPerView: "auto",
-    //   loop: "true",
-    //   autoplay: true,
-    //   pagination: {
-    //     el: ".swiper-pagination",
-    //     type: "bullets",
-    //   },
-    // });
+  <script async>
+    const bannerSwiper = new Swiper(".banner-swiper", {
+      direction: "horizontal",
+      slidesPerView: "auto",
+      loop: "true",
+      autoplay: true,
+      pagination: {
+        el: ".swiper-pagination",
+        type: "bullets",
+      },
+    });
     const restaurantSwiper = new Swiper(".restaurant-swiper", {
       direction: "horizontal",
       loop: "true",
