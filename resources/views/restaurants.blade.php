@@ -5,7 +5,7 @@
             >
               <div class="restaurant-info">
                 <img
-                  src="{{Voyager::image($value->logo)}}"
+                  src="{{secure_asset(Voyager::image($value->logo))}}"
                   alt=""
                   class="restaurant-logo"
                 />
