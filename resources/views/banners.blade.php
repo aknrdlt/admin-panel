@@ -18,7 +18,7 @@
                   </a>
                 </div>
               </div>
-              <img class="banner-photo" src="{{Voyager::image($value -> title)}}"  alt="" />
+              <img class="banner-photo" src="{{Voyager::image($value -> image)}}"  alt="" />
       </div>
       </div>
 
