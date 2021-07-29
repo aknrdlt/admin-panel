@@ -23,3 +23,7 @@ Route::post('/', [MainController::class, 'application']);
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
 });
+
+Route::get('info', function () {
+    phpinfo();
+});
