@@ -7,9 +7,6 @@
     
     <link rel="stylesheet" type="text/css" href="{{ secure_asset('css/style.css') }}" >
     <link rel="stylesheet" type="text/css" href="{{ secure_asset('css/swiper.min.css') }}" >
-
-    <script type="text/javascript" src="{{ asset('js/lottie.js') }}"></script>
-    <script type="text/javascript" src="{{ asset('js/aos.css') }}"></script>
     <title>Order Eat</title>
   </head>
   <body>
@@ -299,8 +296,10 @@
     };
     var anim = bodymovin.loadAnimation(animData);
   </script>
-  <script src="/js/swiper.min.js"></script>
-  <script src="/js/aos.js"></script>
+  <script type="text/javascript" src="{{ asset('js/lottie.js') }}"></script>
+  <script type="text/javascript" src="{{ secure_asset('js/aos.css') }}"></script>
+  <script src="{{ asset('js/swiper.min.js') }}"></script>
+  <script src="{{ asset('js/aos.js') }}"></script>
   <script
     src="https://code.jquery.com/jquery-3.6.0.min.js"
     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
@@ -473,4 +472,5 @@
       }, 3780);
     }
   </script>
+
 </html>
