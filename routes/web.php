@@ -27,7 +27,7 @@ Route::post('/', function(){
         $username = $_POST["username"];
         $phone = $_POST["phone"];
 
-        Application::create([
+        $obj = Application::create([
           'restaurant_name' => $restaurant_name,
           'role' => $role,
           'goal' => $goal,
@@ -35,8 +35,8 @@ Route::post('/', function(){
           'phone' => $phone
         ]);
       }
-      return view('thankyou');
-});
+      return response()->json([$data => $obj]);
+    });
 
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
