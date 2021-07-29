@@ -128,33 +128,7 @@
     <section class="statistics" data-aos="fade-up">
       <div class="container">
         <h1 class="title">Nunc sed blandit libero volutpat</h1>
-        <div class="inner-blocks" id="counter">
-          <div class="statistics-block">
-            <img src="/static/icons/cafe.svg" alt="" class="statistics-icon" />
-            <div class="statistics-data">
-              <h2 class="counter-value" data-count="{{$data -> coworkers}}">0</h2>
-              <span>Заведений уже с нами</span>
-            </div>
-          </div>
-          <div class="statistics-block">
-            <img src="/static/icons/users.svg" alt="" class="statistics-icon" />
-            <div class="statistics-data">
-              <h2 class="counter-value" data-count="{{$data -> users}}">900</h2>
-              <span>Человек пользуются Order Eat</span>
-            </div>
-          </div>
-          <div class="statistics-block">
-            <img
-              src="/static/icons/waiter.svg"
-              alt=""
-              class="statistics-icon"
-            />
-            <div class="statistics-data">
-              <h2 class="counter-value" data-count="{{$data -> staff}}">200</h2>
-              <span>Официантов пользуются Order Eat</span>
-            </div>
-          </div>
-        </div>
+        @include('data')
       </div>
     </section>
     <section class="news" data-aos="fade-right">
@@ -305,7 +279,7 @@
     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
     crossorigin="anonymous"
   ></script>
-  <script async>
+  <script>
     const bannerSwiper = new Swiper(".banner-swiper", {
       direction: "horizontal",
       slidesPerView: "auto",
