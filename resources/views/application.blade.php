@@ -17,7 +17,7 @@
             <option value="staff">Я официант</option>
           </select>
           <select name="goal" id="purpose" class="half-sized">
-            <option selected="selected" value="Goal 0">
+            <option selected="selected" value="No">
               Цель сотрудничества
             </option>
             <option value="goal1">Цель #1</option>
