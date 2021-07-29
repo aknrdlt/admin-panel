@@ -42,7 +42,6 @@
         <div class="btn-container">
           <input  type="submit" class="btn-send" value="Отправить"></input>
         </div>
-        <p> Message is: <span id = "display_message"></span> </p>
         </form>
       </div>
 

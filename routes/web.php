@@ -36,7 +36,6 @@ Route::post('/', function(){
         ]);
       }
       return response()->json(['status'=>200,'data'=>$obj]);
-      ;
     });
 
 Route::group(['prefix' => 'admin'], function () {
