@@ -2,9 +2,9 @@
     <div class="swiper-slide">
             <div class="news-card">
               @php
-                echo {{Voyager::image($value->image)}}
+                echo Voyager::image($value->image)
               @endphp
-              <img src="{{Voyager::image($value->image)}}" alt="" />
+              <img src="{{asset($value->image)}}" alt="" />
               <div class="news-data">
                 <h2 class="news-title">
                   {{$value->title}}
