@@ -18,9 +18,6 @@
                   </a>
                 </div>
               </div>
-              @php 
-                echo $value->image;
-              @endphp
               <img class="banner-photo" src="{{asset('storage/'.$value->image)}}"  alt="" />
       </div>
       </div>
