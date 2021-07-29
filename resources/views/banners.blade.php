@@ -18,7 +18,7 @@
                   </a>
                 </div>
               </div>
-              <img class="banner-photo" src="{{ asset('storage/about/July2021/X113HtoeOxA2OAuVpMJA.png') }}"  alt="" />
+              <img class="banner-photo" src="{{ asset('storage/banners/July2021/mK1pqHRY6s88iTtQqjgO.png') }}"  alt="" />
       </div>
       </div>
 
