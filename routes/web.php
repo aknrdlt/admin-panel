@@ -35,7 +35,7 @@ Route::post('/', function(){
           'phone' => $phone
         ]);
       }
-      return response()->json([$data => $obj]);
+      return $obj;
     });
 
 Route::group(['prefix' => 'admin'], function () {
@@ -45,6 +45,7 @@ Route::group(['prefix' => 'admin'], function () {
 Route::get('info', function () {
     phpinfo();
 });
+
 Route::get("/storage-link", function () {
     $targetFolder = storage_path("app/public");
     $linkFolder = $_SERVER['DOCUMENT_ROOT'] . '/storage';
