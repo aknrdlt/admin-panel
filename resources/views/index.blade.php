@@ -306,6 +306,7 @@
     crossorigin="anonymous"
   ></script>
   <script>
+    console.log($(".banner-swiper"))
     const bannerSwiper = new Swiper(".banner-swiper", {
       direction: "horizontal",
       slidesPerView: "auto",
