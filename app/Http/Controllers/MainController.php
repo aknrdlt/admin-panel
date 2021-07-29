@@ -20,21 +20,4 @@ class MainController extends Controller
             $abouts = About::all();
             return view('index',compact('banners','restaurants', 'data', 'news', 'abouts'));
         }
-        public function application(Request $request){
-            $request->validate([
-                'restaurant_name' => 'required',
-                'username' => 'required',
-                'phone' => 'required|max:25'
-            ]);
-        
-            Application::create([
-                'restaurant_name' => $request->restaurant_name,
-                'role' => $request->role,
-                'goal' => $request->goal,
-                'username' => $request->username,
-                'phone' => $request->phone
-            ]);;
-
-            return redirect('/');
-        }
 }
