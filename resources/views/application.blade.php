@@ -1,5 +1,6 @@
 <img src="/static/images/form-image.png" alt="" class="form-image" />
       <div class="form">
+        @csrf
         <form method="POST" action="">
         {{ csrf_field() }}
         <h1 class="title">Оставьте заявку и мы обязательно свяжемся с вами!</h1>
