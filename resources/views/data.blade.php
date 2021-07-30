@@ -1,4 +1,4 @@
-<div class="inner-blocks" id="counter">
+<!-- <div class="inner-blocks" id="counter">
           <div class="statistics-block">
             <img src="{{$file = Input::file(Voyager::image($data -> image_users));
                         $filename = '...';
@@ -30,4 +30,4 @@
               <span>{{$data -> text_staff}}</span>
             </div>
           </div>
-        </div>
+        </div> -->
