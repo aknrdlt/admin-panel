@@ -306,7 +306,9 @@ section.statistics {
     section.statistics .inner-blocks .statistics-block {
       display: flex; }
       section.statistics .inner-blocks .statistics-block img {
-        margin-right: 25px; }
+        margin-right: 25px;
+        width: 60px;
+        height: 60px; }
       section.statistics .inner-blocks .statistics-block h2 {
         font-size: 36px;
         line-height: 50px;
@@ -537,6 +539,7 @@ footer.footer {
   section.statistics .inner-blocks .statistics-block span {
     max-width: 225px;
     width: 80%; } }
+
 
 @media only screen and (max-width: 768px) {
   .container {
