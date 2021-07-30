@@ -254,7 +254,11 @@ section.restaurants {
     color: #fff;
     padding: 12px 24px;
     margin: 0 auto; }
-
+section.statistics .inner-blocks .statistics-block img {
+     	
+        width: 60px;
+        height: 60px; 
+}
 section.about {
   margin-bottom: 100px; }
   section.about h1.title {
