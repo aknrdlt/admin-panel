@@ -534,6 +534,11 @@ footer.footer {
     max-width: 225px;
     width: 80%; } }
 
+    .statistics-block img{
+      width: 40px;
+      height: 60px;
+    }
+
 @media only screen and (max-width: 768px) {
   .container {
     max-width: 768px;
