@@ -1,6 +1,6 @@
 <div class="inner-blocks" id="counter">
           <div class="statistics-block">
-            <img src="{{Voyager::image($data -> image_coworkers)}}" alt="" class="statistics-icon" />
+            <img src="{{Voyager::image($data -> image_coworkers)}}" alt="dsfd" class="statistics-icon" />
             <div class="statistics-data">
               <h2 class="counter-value" data-count="20">0</h2>
               <span>{{$data -> text_coworkers}}</span>
