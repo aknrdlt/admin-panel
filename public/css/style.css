@@ -288,6 +288,11 @@ section.about {
       width: 460px;
       font-size: 18px; }
 
+      .statistics-block img{
+        width: 40px;
+        height: 60px;
+      }
+
 section.statistics {
   background: var(--bg-sec);
   padding: 100px 0;
@@ -534,10 +539,6 @@ footer.footer {
     max-width: 225px;
     width: 80%; } }
 
-    .statistics-block img{
-      width: 40px;
-      height: 60px;
-    }
 
 @media only screen and (max-width: 768px) {
   .container {
